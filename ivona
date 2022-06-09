@@ -39,8 +39,10 @@ pipeline {
          steps {
             echo 'WHEN with AND expression works!'
          }
+	 steps {
+            echo 'WHEN with AND expression don't works!
+      	 }
       }
-      
       // Expression based when example
       stage('WHEN EXPRESSION with OR') {
          when {
@@ -51,8 +53,6 @@ pipeline {
          steps {
             echo 'WHEN with OR expression works!'
          }
-      }
-      
       // When - AllOf Example
       stage("AllOf") {
         when {
