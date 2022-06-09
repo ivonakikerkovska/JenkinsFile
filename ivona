@@ -19,13 +19,13 @@ pipeline {
          }
       }
       
-      // Execute when branch = 'master'
+      // Execute when branch = 'main'
       stage("BASIC WHEN - Branch") {
          when {
-            branch 'master'
+            branch 'main'
 	 }
          steps {
-            echo 'BASIC WHEN - Master Branch!'
+            echo 'BASIC WHEN - Main Branch!'
          }
       }
       
