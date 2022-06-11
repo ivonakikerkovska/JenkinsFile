@@ -36,9 +36,6 @@ pipeline {
             expression {
                VALUE_ONE == '1' && VALUE_THREE == '3'
             }
-	    expression {
-	    VALUE_ONE == '1' && VALUE_THREE == '5'
-	    }
          }
          steps {
             echo 'WHEN with AND expression works!'
