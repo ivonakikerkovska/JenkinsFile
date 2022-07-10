@@ -92,5 +92,5 @@ pipeline {
         slackSend channel: 'apr-2022-weekend-batch, product-owners-teams', message: 'PROD Deployment was successful. Please start final testing and inform customer..'
      }
     }
-    }
+   }
 }
